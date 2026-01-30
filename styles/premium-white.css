@@ -2034,7 +2034,7 @@ a:focus {
 
 @media (max-width: 400px) {
     .logo h1 {
-        font-size: 0.8125rem !important;
+        font-size: 0.9375rem !important;
         line-height: 1 !important;
         font-weight: 800 !important;
     }
