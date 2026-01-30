@@ -2023,3 +2023,25 @@ a:focus {
         padding: var(--space-2) var(--space-3) !important;
     }
 }
+/* Very small screens - 400x800 and smaller */
+@media (max-width: 400px) {
+    .hero-headline {
+        font-size: 1rem !important;
+        line-height: 1.1 !important;
+    }
+    
+    .hero-subheadline {
+        font-size: 0.875rem !important;
+        line-height: 1.2 !important;
+    }
+    
+    .location-text {
+        font-size: 0.75rem !important;
+        line-height: 1.2 !important;
+    }
+    
+    .education-level {
+        font-size: 0.6875rem !important;
+        line-height: 1.1 !important;
+    }
+}
