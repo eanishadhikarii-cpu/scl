@@ -1835,6 +1835,16 @@ a:focus {
 }
 /* Mobile-specific styles for Hero location card */
 @media (max-width: 768px) {
+    .hero-headline {
+        font-size: clamp(1.5rem, 4vw, 2.5rem) !important;
+        line-height: 1.1 !important;
+    }
+    
+    .hero-subheadline {
+        font-size: clamp(1.125rem, 3vw, 1.75rem) !important;
+        line-height: 1.2 !important;
+    }
+    
     .location-card {
         padding: 1rem !important;
         margin: 0 auto !important;
