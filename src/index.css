@@ -1,0 +1,25 @@
+/* React-specific styles - minimal to avoid conflicts */
+.react-component {
+  /* Base class for all React components */
+}
+
+/* Ensure React components inherit existing design system */
+.react-component * {
+  box-sizing: border-box;
+}
+
+/* React component animations */
+.react-fade-in {
+  animation: reactFadeIn 0.3s ease-in-out;
+}
+
+@keyframes reactFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
