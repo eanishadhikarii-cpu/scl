@@ -8,6 +8,15 @@ const menuToggle = document.getElementById('menuToggle');
 const navMenu = document.getElementById('navMenu');
 const navLinks = document.querySelectorAll('.nav-link');
 
+// Modal functions
+function openModal(modalId) {
+    document.getElementById(modalId).style.display = 'block';
+}
+
+function closeModal(modalId) {
+    document.getElementById(modalId).style.display = 'none';
+}
+
 // Toggle mobile menu
 function toggleMenu() {
     isMenuOpen = !isMenuOpen;
