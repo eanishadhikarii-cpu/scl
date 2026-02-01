@@ -309,7 +309,7 @@ nav ul li a:hover {
   justify-content: center;
   position: relative;
   background: url('../images/hero-bg.jpg');
-  background-size: cover;
+  background-size: 90%;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
