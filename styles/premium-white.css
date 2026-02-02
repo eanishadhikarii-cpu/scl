@@ -1852,8 +1852,11 @@ a:focus {
     }
     
     .hero-subheadline {
-        font-size: clamp(1.125rem, 3vw, 1.75rem) !important;
+        font-size: clamp(0.875rem, 2.5vw, 1.25rem) !important;
         line-height: 1.2 !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
     }
     
     .location-card {
@@ -2045,9 +2048,15 @@ a:focus {
 
 @media (max-width: 400px) {
     .logo h1 {
-        font-size: 0.9375rem !important;
+        font-size: 0.75rem !important;
         line-height: 1 !important;
         font-weight: 800 !important;
+    }
+    
+    .hero-headline {
+        font-size: clamp(1.125rem, 3.5vw, 1.75rem) !important;
+        line-height: 1.1 !important;
+        font-weight: 900 !important;
     }
 }
 /* Mobile-specific styles for Gallery section */
